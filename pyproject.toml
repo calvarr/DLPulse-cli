@@ -1,0 +1,15 @@
+[project]
+name = "dlpulse-cli"
+version = "1.0.0"
+description = "DLPulse — minimal CLI (dlpulse_cli.py + yt_core)"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "yt-dlp>=2024.1.1",
+    "rich>=13.0.0",
+    "pychromecast>=14.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
